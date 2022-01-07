@@ -13,17 +13,20 @@
 
     <script>
         const person = {
-            name: ['Diana ' , ' Ross '],
+            name: { //fazendo o nome do object ser um outro object (sub-namespace)
+                first: " Jian",
+                last: " Fei",
+            },
             age: 45,
             gender: 'female ',
             interests: [' Music ', ' Marrying '],
             bio: function() {
-                alert(this.name[0] + '  ' + this.name[1] + 'is ' + this.age + ' years old. She likes ' + this.interests[0] + 'and' + this.interests[1] + '.');
+                alert(this.name.first + '  ' + this.name.last + 'is ' + this.age + ' years old. She likes ' + this.interests[0] + 'and' + this.interests[1] + '.');
 
             },
             greeting: function(){
-                alert('Hi! I\'m' + this.name[0] + '.');
+                alert('Hi! I\'m' + this.name.first + '.');
             }
-        };
+        }; // Uso de Objeto Literal
     </script>
 </html>
