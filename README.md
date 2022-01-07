@@ -16,3 +16,5 @@ JSOO > Javascript orientado a objetos
 ~Protótipo: todos os objects js herdam propriedades e métodos de um *prototype*, o 'Object.prototype' está no topo da cadeia. 
 
 Classes > Não existem naturalmente no JS e ocorrem atraves de uma *Syntatic Sugar* que é uma sintaxe feita para facilitar a escrita das classes que são objetos, já a herança se dá pelos protótipos.
+
+this. > É uma palavra reservada que serve pra se referir ao objeto em questão, é restrita ao bloco e garante que o objeto será invocado com precisão dentro do comando requisitado. 
